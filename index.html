@@ -10,7 +10,10 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <a class="skip-link" href="#about">Skip to main content</a>
 
+  <!-- Global 3D AI background layers: static grid plus lightweight particles. -->
+  <div class="bg-grid" aria-hidden="true"></div>
   <!-- Animated background particles -->
   <div class="bg-particles">
     <span></span><span></span><span></span><span></span><span></span>
@@ -21,7 +24,7 @@
   <nav id="navbar">
     <div class="nav-inner">
       <a class="nav-logo" href="#hero">Dr. PG</a>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-controls="navLinks">☰</button>
       <ul class="nav-links" id="navLinks">
         <li><a href="#about">About</a></li>
         <li><a href="#stats">Impact</a></li>
@@ -65,18 +68,32 @@
       </div>
     </div>
     <div class="hero-visual">
-      <div class="hero-orbit">
-        <div class="orbit-ring ring-1">
-          <div class="orbit-dot dot-1">🧠</div>
+      <!-- Floating academic profile card with measured 3D depth. -->
+      <div class="profile-card-3d tilt-card" data-tilt>
+        <div class="profile-card-glow"></div>
+        <div class="profile-card-topline">
+          <span>AI Researcher</span>
+          <span>Assistant Professor</span>
         </div>
-        <div class="orbit-ring ring-2">
-          <div class="orbit-dot dot-2">🌿</div>
+        <div class="profile-avatar" aria-hidden="true">PG</div>
+        <div class="profile-card-body">
+          <p class="profile-kicker">Computer Science &amp; Engineering</p>
+          <h2>Dr. Pradeep Gupta</h2>
+          <p>Deep Learning · Computer Vision · Federated Learning · Smart Agriculture</p>
         </div>
-        <div class="orbit-ring ring-3">
-          <div class="orbit-dot dot-3">🔬</div>
-        </div>
-        <div class="orbit-center">
-          <div class="center-avatar"><span>PG</span></div>
+        <div class="profile-metrics" aria-label="Academic impact highlights">
+          <div>
+            <strong>17+</strong>
+            <span>Years</span>
+          </div>
+          <div>
+            <strong>40+</strong>
+            <span>Papers</span>
+          </div>
+          <div>
+            <strong>5</strong>
+            <span>SCIE/ESCI</span>
+          </div>
         </div>
       </div>
     </div>
@@ -258,7 +275,7 @@
         <div class="pub-count-chip scie">SCIE/ESCI: 5</div>
         <div class="pub-count-chip scopus">Scopus: 40+</div>
       </div>
-      <div class="pub-tabs">
+      <div class="pub-tabs" role="tablist" aria-label="Publication categories">
         <button class="pub-tab active" data-tab="scie">⭐ SCIE/ESCI Papers</button>
         <button class="pub-tab" data-tab="scopus">🔍 Scopus Papers</button>
         <button class="pub-tab" data-tab="conference">🎤 Conference Papers</button>
