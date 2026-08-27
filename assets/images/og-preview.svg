@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Dr. Pradeep Gupta academic portfolio preview">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#050914"/>
+      <stop offset=".55" stop-color="#071a33"/>
+      <stop offset="1" stop-color="#111044"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset=".55" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g opacity=".18" stroke="#d8e7f8">
+    <path d="M0 100H1200M0 200H1200M0 300H1200M0 400H1200M0 500H1200"/>
+    <path d="M100 0V630M250 0V630M400 0V630M550 0V630M700 0V630M850 0V630M1000 0V630"/>
+  </g>
+  <circle cx="925" cy="305" r="185" fill="none" stroke="url(#accent)" stroke-width="3" opacity=".72"/>
+  <g fill="#22d3ee" opacity=".86">
+    <circle cx="805" cy="226" r="7"/><circle cx="974" cy="184" r="6"/><circle cx="1030" cy="335" r="8"/><circle cx="875" cy="415" r="7"/><circle cx="760" cy="346" r="5"/>
+  </g>
+  <g stroke="#22d3ee" stroke-width="2" opacity=".46">
+    <path d="M805 226 974 184 1030 335 875 415 760 346 805 226"/>
+    <path d="M805 226 1030 335M974 184 875 415"/>
+  </g>
+  <text x="90" y="205" fill="#eef6ff" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900">Dr. Pradeep Gupta</text>
+  <text x="94" y="275" fill="#22d3ee" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">AI Researcher · Academic · Computer Vision</text>
+  <text x="94" y="335" fill="#d8e7f8" font-family="Inter, Arial, sans-serif" font-size="29">Federated Learning · Smart Agriculture · Healthcare AI</text>
+  <rect x="94" y="410" width="430" height="58" rx="18" fill="url(#accent)" opacity=".92"/>
+  <text x="118" y="448" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">40+ Publications · 7 SCIE/ESCI</text>
+</svg>
