@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://guptapradeep85.github.io/sitemap.xml
